@@ -28,5 +28,5 @@ jobs:
       with:
         app-name: 'ithink1'
         slot-name: 'production'
-        publish-profile: ${{ secrets.AzureAppService_PublishProfile_38a21248d8fd490f9d517ea715a1c32d }}
+        publish-profile: ${{ secrets.AzureAppService_PublishProfile_fe29cac1f1344c979d6ca44a5fe5313f }}
         package: '${{ github.workspace }}/target/*.war'
